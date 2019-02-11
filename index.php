@@ -70,7 +70,7 @@
     <div class="un">
       <div class="top">
         <h3>
-          <? echo $time?>のピックアップ
+          <?php echo $time?>のピックアップ
         </h3>
         <p>
           今日のピックアップ記事
@@ -126,7 +126,7 @@
     <?php endforeach?>
   </div>
   <div class="box">
-    <a href="#"><p><?echo $rankview?></a>
+    <a href="#"><p><?php echo $rankview?></a>
     </div>
   </div>
 
