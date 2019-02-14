@@ -1,5 +1,5 @@
 
-<!-- PCversion -->
+<!-- MERY PCversion -->
 <?php require_once('./data.php');
 ?><!DOCTYPE html>
 <html lang="ja">
