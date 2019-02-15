@@ -132,12 +132,16 @@ header{
   margin-bottom:20px;
 }
 
-.list ul li{
+.list a{
   font-weight: normal;
   color:#6E6E6E;
   display: block;
   height:40px;
   line-height: 40px;
+}
+
+.list i{
+  margin-right: 5px;
 }
 
 .pickup{
@@ -451,7 +455,7 @@ footer{
   background-color:#D8D8D8;
 }
 
-.hover li:hover{
+.hover:hover{
   background-color: #F2F2F2;
 }
 

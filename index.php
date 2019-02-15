@@ -54,16 +54,16 @@
     <p><?php echo $kiji?></p>
 
     <ul>
-      <li class="section addStyle "><a href="#" class="hover"><i class="fas fa-home"></i><?php echo $home?></a></li>
-      <li class="section"><a href="#" class="hover "><i class="fas fa-user-secret "></i><?php echo $fa?></a></li>
-      <li class="section"><a href="#" class="hover "><i class="fas fa-marker "></i><?php echo $cosme?></a></li>
-      <a href="#" class="hover "><li class="section"><i class="fas fa-cut "></i><?php echo $hair?></li></a>
-      <a href="#" class="hover section"><li class="section"><i class="fas fa-pencil-ruler section"></i><?php echo $nail?></li></a>
-      <a href="#" class="hover section"><li class="section"><i class="fas fa-magic section"></i><?php echo $beauty?></li></a>
-      <a href="#" class="hover section"><li class="section"><i class="fab fa-pagelines section"></i><?php echo $life?></li></a>
-      <a href="#" class="hover section"><li class="section"><i class="fas fa-heart section"></i><?php echo $renai?></li></a>
-      <a href="#" class="hover section"><li class="section"><i class="fas fa-utensils section"></i><?php echo $gurume?></li></a>
-      <a href="#" class="hover section"><li class="section"><i class="fas fa-briefcase section"></i><?php echo $travel?></li></a>
+      <li class="section addStyle hover"><a href="#"><i class="fas fa-home"></i><?php echo $home?></a></li>
+      <li class="section hover"><a href="#"><i class="fas fa-user-secret "></i><?php echo $fa?></a></li>
+      <li class="section hover"><a href="#"><i class="fas fa-marker "></i><?php echo $cosme?></a></li>
+      <li class="section hover"><a href="#"><i class="fas fa-cut "></i><?php echo $hair?></a></li>
+      <li class="section hover"><a href="#"><i class="fas fa-pencil-ruler"></i><?php echo $nail?></a></li>
+      <li class="section hover"><a href="#"><i class="fas fa-magic"></i><?php echo $beauty?></a></li>
+      <li class="section hover"><a href="#"><i class="fab fa-pagelines"></i><?php echo $life?></a></li>
+      <li class="section hover"><a href="#"><i class="fas fa-heart"></i><?php echo $renai?></a></li>
+      <li class="section hover"><a href="#"><i class="fas fa-utensils"></i><?php echo $gurume?></a></li>
+      <li class="section hover"><a href="#"><i class="fas fa-briefcase"></i><?php echo $travel?></a></li>
     </ul>
   </div>
   <div class="pickup">
