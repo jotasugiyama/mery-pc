@@ -1,5 +1,5 @@
 
-<!-- MERY PCversion -->
+<!--  PCversion -->
 <?php require_once('./data.php');
 ?><!DOCTYPE html>
 <html lang="ja">
@@ -54,10 +54,10 @@
     <p><?php echo $kiji?></p>
 
     <ul>
-      <a href="#" class="addStyle hover section"><li class="addStyle section"><i class="fas fa-home addStyle section"></i><?php echo $home?></li></a>
-      <a href="#" class="hover section"><li class="section"><i class="fas fa-user-secret section"></i><?php echo $fa?></li></a>
-      <a href="#" class="hover section"><li class="section"><i class="fas fa-marker section"></i><?php echo $cosme?></li></a>
-      <a href="#" class="hover section"><li class="section"><i class="fas fa-cut section"></i><?php echo $hair?></li></a>
+      <li class="section addStyle "><a href="#" class="hover"><i class="fas fa-home"></i><?php echo $home?></a></li>
+      <li class="section"><a href="#" class="hover "><i class="fas fa-user-secret "></i><?php echo $fa?></a></li>
+      <li class="section"><a href="#" class="hover "><i class="fas fa-marker "></i><?php echo $cosme?></a></li>
+      <a href="#" class="hover "><li class="section"><i class="fas fa-cut "></i><?php echo $hair?></li></a>
       <a href="#" class="hover section"><li class="section"><i class="fas fa-pencil-ruler section"></i><?php echo $nail?></li></a>
       <a href="#" class="hover section"><li class="section"><i class="fas fa-magic section"></i><?php echo $beauty?></li></a>
       <a href="#" class="hover section"><li class="section"><i class="fab fa-pagelines section"></i><?php echo $life?></li></a>
