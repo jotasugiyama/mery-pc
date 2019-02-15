@@ -125,7 +125,8 @@ header{
   border-right: 1px solid #D8D8D8;
   display: inline-block;
   position:sticky;
-  bottom:170px;
+  top:0;
+  vertical-align: top;
 }
 
 .list p{

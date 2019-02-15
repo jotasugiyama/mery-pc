@@ -5,6 +5,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="./fabicon.ico">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" />
   <title><?php echo $title ?></title>
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css" />
@@ -17,15 +18,15 @@
     <div class="header-left"><!--
     --><form action="#" method="get"><!--
   --><input class="search" name="search" type="search" placeholder="<?php echo $search ?>"/><!--
---><input class="sub" type="submit" value="&#xf002;" class="fas"/><!--
+--><input class="sub" type="submit" value="検索"/><!--
 --></form>
 </div>
 <div class="header-logo">
   <?php echo $title?>
 </div>
 <div class="header-right">
-  <a href="#"><?echo $member?></a>
-  <a href="#"><?echo $login?></a>
+  <a href="#"><?php echo $member?></a>
+  <a href="#"><?php echo $login?></a>
 </div>
 </header>
 
@@ -40,8 +41,8 @@
 <a href="#" class="atagu"><p class="topifont border"><?php echo $topic->getTitle()?></p></a>
 <p class=topic-article><?php echo $topic->getArticle()?></p>
 <p class="topic-bottom">
-  <span><?echo $topic->getName()?></span>
-  <span class="topic-view"><?echo $topic->getView()?> view</span>
+  <span><?php echo $topic->getName()?></span>
+  <span class="topic-view"><?php echo $topic->getView()?> view</span>
 </p>
 </div>
 </div></a><!--
@@ -132,8 +133,8 @@
 
   <div class="access line-bottom">
     <div class="access-top">
-      <h4><?echo $recomend?></h4>
-      <p><?echo $recomendSub?></p>
+      <h4><?php echo $recomend?></h4>
+      <p><?php echo $recomendSub?></p>
     </div>
     <div class="access-rank">
       <?php foreach($accesss as $access):?>
@@ -152,8 +153,8 @@
 
 <div class="access">
   <div class="access-top">
-    <h4><?echo $new?></h4>
-    <p><?echo $newSub?></p>
+    <h4><?php echo $new?></h4>
+    <p><?php echo $newSub?></p>
   </div>
   <div class="access-rank">
     <?php foreach($topics as $topic):?>
@@ -179,7 +180,7 @@
 
 <div class="last">
   <div class="last-content">
-    <h1><?echo $app?></h1>
+    <h1><?php echo $app?></h1>
     <p>
       <?php echo $come?>
     </p>
@@ -224,7 +225,7 @@
 --></div>
 <div class="about">
   <ul>
-    <li class="category-title"><?echo $about?></li>
+    <li class="category-title"><?php echo $about?></li>
   </ul><!--
   --><div class="about-list">
   <ul>
@@ -246,7 +247,7 @@
 <div class="footer-last">
   <div class="mannaka">
     <div class="footer-left">
-      <p><?echo $message?></p>
+      <p><?php echo $message?></p>
       <span class="twitter"><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmery.jp%2F&ref_src=twsrc%5Etfw&related=mery_news&text=MERY%5B%E3%83%A1%E3%83%AA%E3%83%BC%5D%EF%BD%9C%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%AE%E6%AF%8E%E6%97%A5%E3%82%92%E3%81%8B%E3%82%8F%E3%81%84%E3%81%8F%E3%80%82&tw_p=tweetbutton&url=https%3A%2F%2Fmery.jp%2F%3Ffrom%3Dmery"><i class="fab fa-twitter"></i>ツイート</a></span>
       <span class="facebook"><a href="https://www.facebook.com/v2.0/plugins/error/confirm/like?iframe_referer=https%3A%2F%2Fmery.jp%2F&kid_directed_site=false&secure=true&plugin=like&return_params=%7B%22app_id%22%3A%22527961973891229%22%2C%22channel%22%3A%22https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Df1f0cab1c920ee8%26domain%3Dmery.jp%26origin%3Dhttps%253A%252F%252Fmery.jp%252Ff4f33a00a109fc%26relation%3Dparent.parent%22%2C%22container_width%22%3A%220%22%2C%22href%22%3A%22https%3A%2F%2Fwww.facebook.com%2FMERY.info%22%2C%22layout%22%3A%22button_count%22%2C%22locale%22%3A%22ja_JP%22%2C%22sdk%22%3A%22joey%22%2C%22ret%22%3A%22sentry%22%2C%22act%22%3A%22like%22%7D"><i class="far fa-thumbs-up"></i>いいね！ 20万</a></span>
     </div>
